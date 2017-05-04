@@ -57,7 +57,8 @@ namespace Run_NURBS
             if (!empty()) 
             { 
                 TextWriter tw = new StreamWriter(path, true);
-                tw.WriteLine("NURBS.exe " + textNumSurface.Text + space + textPoints.Text + space + textWeights.Text + space + textKnotsU.Text + space + textKnotsV.Text);
+                tw.WriteLine("NURBS.exe " + textNumSurface.Text + space + textPoints.Text + space 
+                + textWeights.Text + space + textKnotsU.Text + space + textKnotsV.Text);
                 tw.Close();
                 listBatFiles.Items.Add(extension);
             }
@@ -76,7 +77,7 @@ namespace Run_NURBS
         private void button3_Click(object sender, EventArgs e)
         {
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
-                textPoints.Text = Path.GetFileName(openFileDialog1.FileName);
+                textPoints.Text = Path.GetFileName(openFileDialog1.FileName);              
             else { }
         }
 

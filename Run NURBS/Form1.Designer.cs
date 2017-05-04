@@ -202,7 +202,7 @@
             // 
             // butWeights
             // 
-            this.butWeights.Location = new System.Drawing.Point(94, 75);
+            this.butWeights.Location = new System.Drawing.Point(94, 76);
             this.butWeights.Name = "butWeights";
             this.butWeights.Size = new System.Drawing.Size(18, 20);
             this.butWeights.TabIndex = 17;
@@ -213,7 +213,7 @@
             // 
             this.butKnotsU.Location = new System.Drawing.Point(94, 114);
             this.butKnotsU.Name = "butKnotsU";
-            this.butKnotsU.Size = new System.Drawing.Size(18, 20);
+            this.butKnotsU.Size = new System.Drawing.Size(18, 21);
             this.butKnotsU.TabIndex = 18;
             this.butKnotsU.UseVisualStyleBackColor = true;
             this.butKnotsU.Click += new System.EventHandler(this.button5_Click);
@@ -222,7 +222,7 @@
             // 
             this.butKnotsV.Location = new System.Drawing.Point(94, 153);
             this.butKnotsV.Name = "butKnotsV";
-            this.butKnotsV.Size = new System.Drawing.Size(18, 20);
+            this.butKnotsV.Size = new System.Drawing.Size(18, 21);
             this.butKnotsV.TabIndex = 19;
             this.butKnotsV.UseVisualStyleBackColor = true;
             this.butKnotsV.Click += new System.EventHandler(this.button6_Click);
