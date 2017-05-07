@@ -138,9 +138,10 @@
             this.labNumSurface.AutoSize = true;
             this.labNumSurface.Location = new System.Drawing.Point(131, 60);
             this.labNumSurface.Name = "labNumSurface";
-            this.labNumSurface.Size = new System.Drawing.Size(103, 13);
+            this.labNumSurface.Size = new System.Drawing.Size(109, 13);
             this.labNumSurface.TabIndex = 9;
-            this.labNumSurface.Text = "Ilość powierzchni (5)";
+            this.labNumSurface.Text = "Ilość powierzchni (10)";
+            this.labNumSurface.Click += new System.EventHandler(this.labNumSurface_Click);
             // 
             // textMakeFile
             // 

@@ -43,7 +43,7 @@ namespace Run_NURBS
                 return true;
             if (!Int32.TryParse(textNumSurface.Text, out x))
                 return true;
-            else if (x > 5)
+            else if (x > 10 || x < 1)
                 return true;
             return false;
         }
@@ -106,6 +106,11 @@ namespace Run_NURBS
         {            
             if (listBatFiles.SelectedItems.Count == 1)
                 Process.Start(listBatFiles.SelectedItems[0].Text);
+        }
+
+        private void labNumSurface_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
